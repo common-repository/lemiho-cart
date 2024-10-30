@@ -1,0 +1,414 @@
+div.main-product {
+    padding: 10px;
+}
+div.content-main {
+	display: inline-block;
+    width: 100%;
+    position: relative;
+    margin: 5px 0px;
+}
+div.main-product div.content-main div.thumbnail-product {
+	width: 49%;
+	float: left;
+	margin-right: 1%;
+	position: relative;
+}
+div.main-product div.content-main div.meta-product {
+	width: 50%;
+	float: right;
+}
+div.main-product div.content-main div.meta-product h1.product-title {
+        margin: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+div.main-product div.content-main div.meta-product span.price-product {
+        font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+div.main-product div.content-main div.meta-product form input.input-lemiho {
+	    height: 49px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+div.main-product div.content-main div.content-content-lemiho {
+	    display: inline-block;
+    width: 100%;
+    margin: 10px 0px;
+    height: 300px;
+    overflow-y: scroll;
+    
+}
+div.lemiho-pagination {
+    margin: 5px 10px;
+}
+div.lemiho-alert-sent-email {
+    padding: 5px;
+}
+div.lemiho-pagination a, div.lemiho-pagination span {
+    padding: 5px;
+}
+/**
+  @ container site 
+**/
+div.lemiho-page-site {
+    width: 100%;
+    display: inline-block;
+    background: white;
+}  
+/**
+   @    Gruop item 
+   **/
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-option div.lemiho-item-button div.lemiho-item-ajax-alert div.lemiho-ajax-loading,
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-option div.lemiho-item-button div.lemiho-item-ajax-alert div.lemiho-ajax-show-alert {
+    display: none;
+    position: absolute;
+    width: 180px;
+    top: 150px;
+}   
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item {
+        display: inline-block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item {
+        width: 23%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+    list-style: none;
+    padding: 10px 0px;
+    position: relative;
+    overflow: hidden;
+}
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-option div.lemiho-item-price span {
+    font-size: 25px;
+    font-family: cursive;
+}
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-thumbnail {
+    height: auto;
+    overflow: hidden;
+}
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-thumbnail img {
+    max-width: 100%;
+}
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-title a {
+    text-decoration: none;
+    color: black;
+}
+div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-title a h2 {
+        font-size: 15px;
+    margin: 5px 0px;
+}
+div.lemiho-page-site div.lemiho-content-site div.lemiho-title-page {
+    padding: 10px;
+}
+form.lemiho-form input.lemiho-input {
+    margin: 10px 0px;
+}
+ul.lemiho-widget-group {
+        padding: 0px;
+}
+ul.lemiho-widget-group li {
+    list-style: none;
+    width: 100%;
+    padding: 5px 0px;
+    overflow: hidden;
+}
+ul.lemiho-widget-group li img.lemiho-icon-shop-widget {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+ul.lemiho-widget-group li div.text-after-icon-lmh {
+    padding-top: 20px;
+    color: black;
+}
+ul.lemiho-widget-group li div.text-after-icon-lmh span {
+    padding: 3px 8px;
+    border-radius: 50%;
+    margin-left: 15px;
+    color: #f9f9f9;
+}
+span.span-hot-product {
+    position: absolute;
+    z-index: 999999999;
+    top: 10px;
+    right: 0px;
+    padding: 5px;
+    color: white;
+    background: #bb0404;
+    font-size: 9px;
+	width: auto!important;
+}
+span.span-sale-product {
+    position: absolute;
+    z-index: 999999999;
+    top: 36px;
+    right: 0px;
+    padding: 5px 5px 5px 4px;
+    color: white;
+    font-size: 8px;
+	width: auto!important;
+}
+/**
+  @      Single checkout
+**/
+div.lemiho-box-update-down {
+        margin: 0px 0px 20px 0px;
+
+}
+span.lemiho-button-options-single:hover {
+    cursor: pointer;
+    
+}
+span.lemiho-button-options-single {
+    background: white;
+    padding: 0px 31px;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-size: 30px;
+}
+div.meta-product button.lemiho-button-submit {
+    padding: 10px 20px;
+    font-size: 17px;
+}
+div.lemiho-hotline-buy {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0px;
+}
+div.lemiho-hotline-buy span.text-hotline-buy {
+        font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+input.lemiho-input {
+        width: 100%;
+    padding-left: 10px;
+    line-height: 30px;
+}
+div.lemiho-callback-div {
+    padding: 10px 0px 1px 20px;
+    margin-bottom: 20px;
+}
+div.lemiho-callback-div p {
+    color: white;
+}
+div.lemiho-callback-div a {
+    color: black;
+}
+div.lemiho-product-archive a {
+    color: #5e5e5e;
+}
+ul.list-image-slider-big,ul.list-image-slider-small {
+    padding: 0px;
+}
+ul.list-image-slider-big li,ul.list-image-slider-small li {
+    list-style: none;
+    overflow: hidden;
+}
+ul.list-image-slider-big li img {
+    max-width: 100%;
+}
+ul.list-image-slider-big li {
+    height: 350px;
+}
+ul.list-image-slider-big li:nth-child(n+2) {
+    display: none;
+}  
+ul.list-image-slider-small li {
+    width: 12%;
+    padding: 1%;
+    float: left;
+    overflow: hidden;
+    height: 70px;
+}
+ul.list-image-slider-small li:hover {
+    cursor: pointer;
+}
+ul.list-image-slider-small li img {
+    max-width: 100%;
+    height: auto;
+}
+/**
+  @ title page 
+  **/
+div.lemiho-page-site div.lemiho-content-site div.lemiho-title-page h1.text-lemiho-title-page {
+    font-weight: bold;
+    border-bottom: 3px solid #f9f9f9;
+    font-size: 25px;    
+    margin: 0px;
+}  
+/**
+  @ Table checkout
+**/
+div.lemiho-table-responsive {
+    width: 100%;
+    overflow-x: scroll;
+}  
+button.lemiho-button-update {
+    background: white;
+    padding: 0px 0px 20px;
+    border: none;
+    overflow: hidden;
+    box-shadow: none;
+}
+button.lemiho-button-update:hover {
+    background: white;
+}
+button.lemiho-button-update img {
+        border-radius: 50%;
+    width: 30px;
+    padding-top: 0px;
+    margin-bottom: -9px;
+}
+div.lemiho-table-responsive table.lemiho-box-table {
+    width: 1120px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr th img {
+    border: 1px solid #ecdede;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr td img.lemiho-remove {
+    width: 35px;
+    height: 35px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr th:first-child {
+    width: 300px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr th:nth-child(2) {
+    width: 100px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr th:nth-child(3) {
+    width: 200px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr th:nth-child(4),
+div.lemiho-table-responsive table.lemiho-box-table tr th:nth-child(5),
+div.lemiho-table-responsive table.lemiho-box-table tr th:nth-child(6) {
+    width: 140px;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr td,
+div.lemiho-table-responsive table.lemiho-box-table tr th {
+    text-align: center;
+}
+div.lemiho-table-responsive table.lemiho-box-table tr td:nth-child(2) img {
+    width: 85px;
+    height: auto;
+}
+/**
+  @ sidebar css basic 
+  **/
+div.lemiho-sideabr-site {
+    padding: 10px;
+}  
+div.lemiho-sideabr-site h3.lemiho-text-title-widget {
+        font-weight: bold;
+    font-size: 18px;
+    color: #615d5d;
+}
+div.lemiho-sideabr-site div.lemiho-widget {
+    margin: 10px 0px;
+    border: 2px solid #efefef;
+    padding: 10px;
+    background: #fffefe;
+    border-radius: 5px;
+}
+@media screen and (min-width: 1024px ) {
+    div.lemiho-sideabr-site {
+        width: 25%;
+        float: left;
+    }  
+    div.lemiho-content-site.archive {
+            width: 70%;
+            float: right;
+            margin-left: 1%;
+    }
+}
+/**
+  @ button
+ **/
+button.lemiho-item-button-add-to-cart, button.lemiho-button-seach-frontend, input.lemiho-button, button.lemiho-button-submit {
+    text-shadow: none;
+    color: #fdf9f9;
+    border: none;
+    font-size: 12px;
+}
+button.lemiho-item-button-add-to-cart {
+    padding: 10px 20px;
+}
+button.lemiho-button-seach-frontend, input.lemiho-button, button.lemiho-button-submit {
+    padding: 5px 10px;
+}
+button.lemiho-item-button-add-to-cart:hover, button.lemiho-button-seach-frontend:hover, input.lemiho-button:hover, button.lemiho-button-submit:hover {
+    cursor: pointer;
+}
+/**
+  @ ===========================================================
+  @ ==================   Coupon  ========================
+  @ ===========================================================
+**/ 
+div.lemiho-mini-box-coupon {
+        padding: 5px;
+    border: 2px solid #f9f4f4;
+    margin-top: 20px;
+    background: #f9f6f6;
+}
+div.lemiho-mini-box-coupon form button {
+    padding: 7px;
+    margin-left: 3px;
+}
+div.lemiho-mini-box-coupon form input {
+        padding: 6px;
+}
+/**
+  @ ===========================================================
+  @ ==================   Responsive  ========================
+  @ ===========================================================
+**/ 
+@media screen and (min-width: 319px ) and (max-width: 767px ) {
+    div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    span.span-hot-product, span.span-sale-product {
+        width : auto;
+    }
+    div.main-product div.content-main div.thumbnail-product, 
+    div.main-product div.content-main div.meta-product,
+    div.main-product div.content-main div.meta-product form input.input-lemiho {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px ) {
+    div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-option div.lemiho-item-button {
+            display: block;
+            position: absolute;
+            width: 100%;
+            transition: all 0.5s;
+            top: 120px;
+            opacity: 0.001;
+    }
+    div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item:hover div.lemiho-item-option div.lemiho-item-button {
+            display: block;
+            top: 80px;
+            opacity: 1.0;
+            transition: all 0.5s;
+    }
+    div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item div.lemiho-item-option div.lemiho-item-button button {
+        font-size: 12px;
+        transition: all 0.5s;
+    }
+    div.lemiho-page-site div.lemiho-content-site ul.lemiho-group-item > li.lemiho-item:hover div.lemiho-item-option div.lemiho-item-button button {
+        font-size: 15px;
+        transition: all 0.5s;
+    }
+}
+
+
+

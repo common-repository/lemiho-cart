@@ -1,0 +1,117 @@
+div.lemiho.box-meta-product {
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0px;
+}
+div.lemiho.box-meta-product .input-lemiho {
+		width: 100%;
+		height: 35px;
+    	margin: 10px 0px;
+}
+div.lemiho.box-meta-product label {
+   margin: 10px 0px;
+}
+h1.title-page-product-setting {
+	font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+input.lemiho-input {
+	width: 100%;
+}
+#image {
+        width: 100%;
+    height: 160px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #000000;
+    padding: 10px 0px;
+}
+#image img {
+   
+}
+div.lemiho-cart-page-option {
+	   	        width: 300px;
+			    margin: auto;
+			    background: white;
+			    padding: 5px;
+			    margin-top: 50px;
+			    border-top: 5px solid #5f6502;
+			    border-left: 4px solid #848484;
+			    border-right: 3px solid #969208;
+			    border-bottom: 1px solid black;
+	   }
+div.box-lemiho-slider {
+    width: 46.6%;
+    margin-right: 1%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+}	
+div.action-list-order-be {
+    width: 98%;
+    display: inline-block;
+    background: #6f0000;
+    padding: 1%;
+    color: white;
+}
+div.box-list-order-be div.group-user {
+    margin: -4px 0px 0px 0px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+div.action-list-order-be ul.group-info {
+    padding: 0px;
+    margin: 0px;
+}
+div.lemiho-table-product table {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+div.lemiho-table-product table img {
+    max-width: 100%;
+    height: auto;
+}
+div.lemiho-table-product table tr th:first-child {
+    width: 100px;
+}
+div.lemiho-table-product table tr th:nth-child(2) {
+    width: 300px;
+}
+div.lemiho-table-product table tr th:nth-child(3) {
+    width: 100px;
+}
+div.lemiho-table-product table tr th:nth-child(4) {
+    width: 100px;
+}
+div.lemiho-table-product table tr {
+    text-align: center;
+}
+div.action-list-order-be ul.group-info li {
+    list-style: none;
+    float: left;
+    padding: 0px 10px;
+}
+/**
+  @ ===========================================================
+  @ ==================   Backend Order ========================
+  @ ===========================================================
+**/     
+div.wrapper-order {
+	    width: 97%;
+    padding: 1%;
+    background: white;
+    max-width: 100%;
+}
+div.lemiho-table-product, div.group-user {
+    display: none;
+}
+@media screen and (min-width: 1024px ) {
+	   div.lemiho-cart-page-option {
+	   	        width: 500px;
+                position: relative;
+	   }
+}
